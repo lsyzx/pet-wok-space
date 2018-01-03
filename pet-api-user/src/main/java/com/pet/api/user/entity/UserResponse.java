@@ -1,7 +1,5 @@
 package com.pet.api.user.entity;
 
-import com.alibaba.fastjson.JSON;
-
 public class UserResponse {
     private String res_code;
     private String res_msg;
