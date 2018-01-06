@@ -7,7 +7,9 @@ import com.pet.core.user.dao.UserDao;
 import com.pet.core.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.beans.Transient;
 import java.util.List;
 
 
@@ -15,11 +17,11 @@ import java.util.List;
 public class UserServiceImpl implements UserService{
 
     //@Transactional
-
     @Autowired
     private UserDao userDao;
 
 
+    @Transactional
     @Override
     public PageInfo<User> getUserList(int pageNum, int pageSize) {
         PageHelper.startPage(pageNum,pageSize);

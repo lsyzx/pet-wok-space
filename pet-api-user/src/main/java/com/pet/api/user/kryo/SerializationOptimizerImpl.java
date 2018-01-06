@@ -17,8 +17,10 @@ package com.pet.api.user.kryo;
 
 import com.alibaba.dubbo.common.serialize.support.SerializationOptimizer;
 import com.pet.api.user.entity.User;
-import com.pet.api.user.entity.UserRequest;
-import com.pet.api.user.entity.UserResponse;
+import com.pet.api.user.request.QUERY_USER_REQ;
+import com.pet.api.user.response.QUERY_USER_RES;
+import com.pet.common.utils.PetRequest;
+import com.pet.common.utils.PetResponse;
 
 import java.util.Collection;
 import java.util.LinkedList;
@@ -34,8 +36,10 @@ public class SerializationOptimizerImpl implements SerializationOptimizer {
     public Collection<Class> getSerializableClasses() {
         List<Class> classes = new LinkedList<Class>();
         classes.add(User.class);
-        classes.add(UserResponse.class);
-        classes.add(UserRequest.class);
+        classes.add(PetRequest.class);
+        classes.add(PetResponse.class);
+        classes.add(QUERY_USER_RES.class);
+        classes.add(QUERY_USER_REQ.class);
         return classes;
     }
 }

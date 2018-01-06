@@ -1,0 +1,1 @@
+checkAuthFilter=com.pet.common.utils.filter.CheckAuthFilter

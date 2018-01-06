@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/pet-common-parent/pet-common-parent.iml" filepath="$PROJECT_DIR$/pet-common-parent/pet-common-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/pet-commont-utils/pet-commont-utils.iml" filepath="$PROJECT_DIR$/pet-commont-utils/pet-commont-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/pet-service-user/pet-service-user.iml" filepath="$PROJECT_DIR$/pet-service-user/pet-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pet-web-boss/pet-web-boss.iml" filepath="$PROJECT_DIR$/pet-web-boss/pet-web-boss.iml" />
       <module fileurl="file://$PROJECT_DIR$/pet-workspace.iml" filepath="$PROJECT_DIR$/pet-workspace.iml" />
     </modules>
   </component>

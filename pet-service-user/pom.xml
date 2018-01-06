@@ -37,15 +37,38 @@
     <finalName>pet-service-user</finalName>
 
     <resources>
-      <resource>
-        <targetPath>${project.build.directory}/classes</targetPath>
-        <directory>src/main/resources</directory>
-        <filtering>true</filtering>
-        <includes>
-          <include>**/*.xml</include>
-          <include>**/*.properties</include>
-        </includes>
-      </resource>
+      <!--本地开发使用-->
+     <resource>
+       <targetPath>${project.build.directory}/classes</targetPath>
+       <directory>src/main/resources</directory>
+       <filtering>true</filtering>
+       <includes>
+         <include>**/*.xml</include>
+         <include>**/*.properties</include>
+       </includes>
+     </resource>
+
+      <!--jar包剔除文件
+     <resource>
+       <targetPath>${project.build.directory}/classes</targetPath>
+       <directory>src/main/resources</directory>
+       <filtering>true</filtering>
+       <includes>
+         <include>**/*.xml</include>
+         <include>**/log4j.properties</include>
+       </includes>
+     </resource>
+      -->
+     <!--配置文件导出到外部-->
+     <resource>
+       <targetPath>${project.build.directory}/properties</targetPath>
+       <directory>src/main/resources/properties</directory>
+       <filtering>true</filtering>
+       <excludes>
+         <exclude>**/*.java</exclude>
+       </excludes>
+     </resource>
+
       <!-- 结合com.alibaba.dubbo.container.Main -->
       <resource>
         <targetPath>${project.build.directory}/classes/META-INF/spring</targetPath>
@@ -56,6 +79,7 @@
         </includes>
       </resource>
     </resources>
+
 
     <pluginManagement>
       <plugins>

@@ -1,7 +1,24 @@
+/**
+ * Copyright (C), 2015-2018, XXX有限公司
+ * 文件名: AmountUtil
+ * 作者:   lsyzx
+ * 创建时间:     2018/1/5 上午12:44
+ * 描述:
+ * 历史修改:
+ * <author>          <time>          <version>          <desc>
+ * 作者姓名           修改时间           版本号              描述
+ */
 package com.pet.common.utils.number;
 
 import java.math.BigDecimal;
 
+/**
+ * 混合运算<br>
+ *
+ * @author lsyzx
+ * @create 2018/1/5
+ * @version 1.0
+ */
 public abstract class AmountUtil {
 
 	private AmountUtil() {

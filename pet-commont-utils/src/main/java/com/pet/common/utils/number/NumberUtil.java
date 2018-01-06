@@ -1,3 +1,13 @@
+/**
+ * Copyright (C), 2015-2018, XXX有限公司
+ * 文件名: NumberUtil
+ * 作者:   lsyzx
+ * 创建时间:     2018/1/5 上午12:44
+ * 描述:
+ * 历史修改:
+ * <author>          <time>          <version>          <desc>
+ * 作者姓名           修改时间           版本号              描述
+ */
 package com.pet.common.utils.number;
 
 import org.apache.commons.lang3.math.NumberUtils;
@@ -5,8 +15,11 @@ import org.apache.commons.lang3.math.NumberUtils;
 import java.math.BigDecimal;
 
 /**
- * 
- * Object值转为不同类型的数值.
+ * Object值转为不同类型的数值<br>
+ *
+ * @author lsyzx
+ * @create 2018/1/5
+ * @version 1.0
  */
 public class NumberUtil {
 	

@@ -9,6 +9,7 @@
         <module name="pet-api-user" />
         <module name="pet-commont-utils" />
         <module name="pet-service-user" />
+        <module name="pet-web-boss" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -16,6 +17,7 @@
       <module name="pet-common-parent" target="1.8" />
       <module name="pet-commont-utils" target="1.8" />
       <module name="pet-service-user" target="1.8" />
+      <module name="pet-web-boss" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

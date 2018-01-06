@@ -3,8 +3,11 @@ package com.pet.api.user.entity;
 public class User{
 
     private long id;
+
     private String name;
+
     private int age;
+
     private char sex;
 
     public long getId() {
@@ -38,4 +41,6 @@ public class User{
     public void setSex(char sex) {
         this.sex = sex;
     }
+
+
 }

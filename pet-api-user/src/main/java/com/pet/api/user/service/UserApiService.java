@@ -1,15 +1,13 @@
 package com.pet.api.user.service;
 
-import com.github.pagehelper.PageInfo;
-import com.pet.api.user.entity.User;
-import com.pet.api.user.entity.UserRequest;
-import com.pet.api.user.entity.UserResponse;
+import com.pet.api.user.request.QUERY_USER_REQ;
+import com.pet.api.user.response.QUERY_USER_RES;
 
 public interface UserApiService {
 
-    UserResponse queryUserList(UserRequest userRequest);
+    QUERY_USER_RES queryUserList(QUERY_USER_REQ req);
 
-    User getUserInfo();
+    QUERY_USER_RES getUserInfo(QUERY_USER_REQ req);
 
-    String get_string();
+    QUERY_USER_RES get_string(QUERY_USER_REQ req);
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/pet-service-user" />
+    <file type="web" url="file://$PROJECT_DIR$/pet-web-boss" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -10,6 +11,7 @@
         <option value="$PROJECT_DIR$/pet-commont-utils/pom.xml" />
         <option value="$PROJECT_DIR$/pet-api-user/pom.xml" />
         <option value="$PROJECT_DIR$/pet-service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/pet-web-boss/pom.xml" />
       </list>
     </option>
   </component>

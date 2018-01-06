@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.pet.api.user.extension;
+package com.pet.common.utils.extension;
 
 import com.alibaba.dubbo.rpc.RpcContext;
 
@@ -31,4 +31,6 @@ public class CustomExceptionMapper implements ExceptionMapper<NotFoundException>
         System.out.println("Client IP is " + RpcContext.getContext().getRemoteAddressString());
         return Response.status(Response.Status.NOT_FOUND).entity("Oops! the requested resource is not found!").type("text/plain").build();
     }
+
+
 }
